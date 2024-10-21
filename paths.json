@@ -1,7 +1,7 @@
 {
   "mappings": [
-    "/content/osuue/:/",
-    "/content/osuue/configuration:/.helix/config.json"
+    "/content/OSUUE/:/",
+    "/content/OSUUE/configuration:/.helix/config.json"
   ]
 }
 
