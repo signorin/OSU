@@ -74,8 +74,8 @@ body.appear {
 }
 
 header {
-  height: 100px /*var(--nav-height)*/;
-  font-size: larger;
+  height: 80px /*var(--nav-height)*/;
+  font-size: 100px;
 }
 
 h1,
