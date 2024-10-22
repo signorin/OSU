@@ -20,7 +20,7 @@
   --text-color: black;
 
   /* fonts */
-  --body-font-family: roboto, roboto-fallback;
+  --body-font-family: "Fjalla One", sans-serif;
   --heading-font-family: var(--body-font-family);
   --fixed-font-family: 'Roboto Mono', menlo, consolas, 'Liberation Mono', monospace;
 
@@ -74,7 +74,8 @@ body.appear {
 }
 
 header {
-  height: var(--nav-height);
+  height: 100px /*var(--nav-height)*/;
+  font-size: larger;
 }
 
 h1,
@@ -155,12 +156,12 @@ button {
   font-weight: 600;
   cursor: pointer;
   color: var(--background-color);
-  background-color: var(--link-color);
+  background-color: #FE5B01;
   margin: 16px 0;
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
-  border-radius: 30px;
+  /*border-radius: 30px;*/
 }
 
 a.button:hover,
